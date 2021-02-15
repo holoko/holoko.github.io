@@ -1,20 +1,18 @@
-/* TypeFace 書体
--------------------------------------------------- */
 @font-face {
-   font-family: 'MR-BO' ;
-   src: url('../fonts/MPLUSRounded1c-Bold.ttf') format("truetype");
-}@font-face {
-   font-family: 'MR-MD' ;
-   src: url('../fonts/MPLUSRounded1c-Medium.ttf') format("truetype");
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 /* =======================================================
 *
-* 	Template Style
+* 	Template Style 
 *	Edit this section
 *
 * ======================================================= */
 body {
-  font-family: "MR-MD", Arial, serif;
+  font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 20px;
   background: #f0f0f0;
@@ -40,14 +38,14 @@ body.menu-show {
 }
 
 a {
-  color: #aaaaaa;
+  color: #FA7E0A;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: underline;
-  color: #aaaaaa;
+  color: #FA7E0A;
 }
 a:focus, a:active {
   outline: none;
@@ -56,10 +54,9 @@ a:focus, a:active {
 p, span {
   margin-bottom: 1.5em;
   font-size: 18px;
-  letter-spacing: 0.15rem;
   color: #727272;
   font-weight: 300;
-  font-family: "MR-MD", Arial, serif;
+  font-family: "Roboto", Arial, serif;
 }
 
 span {
@@ -69,7 +66,7 @@ span {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "MR-BO", Arial, sans-serif;
+  font-family: "Roboto Slab", Arial, sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
 }
@@ -264,14 +261,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #aaaaaa;
+  background: #FA7E0A;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #aaaaaa;
+  background: #FA7E0A;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -301,17 +298,17 @@ header .fh5co-navbar-brand h1 {
   display: block;
 }
 header .fh5co-navbar-brand .fh5co-logo {
-  font-size: 50px;
+  font-size: 35px;
   text-transform: uppercase;
   color: #000;
-  font-family: "MR-BO";
+  font-weight: 300;
 }
 header .fh5co-navbar-brand .fh5co-logo i {
   font-size: 50px;
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
   text-decoration: none !important;
-  color: #aaa !important;
+  color: #000 !important;
 }
 header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co-logo:focus {
   outline: none;
@@ -467,7 +464,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   left: 0;
   right: 0;
   text-align: center;
-  background: #868585;
+  background: rgba(250, 126, 10, 0.8);
   opacity: 0;
   padding-top: 35%;
   -webkit-transition: 0.3s;
@@ -520,7 +517,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   bottom: 0;
   left: 0;
   right: 0;
-  background: #aaaaaa;
+  background: rgba(250, 126, 10, 0.8);
   padding-top: 140px;
   opacity: 0;
   -webkit-transition: 0.3s;
@@ -562,7 +559,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   font-size: 60px;
   display: block;
   color: #fff;
-  font-family: "MR-MD", Arial, serif;
+  font-family: "Roboto", Arial, serif;
   width: 100%;
   font-weight: 700;
   margin-bottom: 0em;
@@ -606,7 +603,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 .services span i {
   font-size: 60px;
   padding: 30px;
-  color: #aaaaaa;
+  color: #FA7E0A;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 50%;
@@ -726,7 +723,7 @@ input[type="text"] {
 }
 #footer a:hover, #footer a:focus {
   text-decoration: none;
-  color: #aaaaaa;
+  color: #FA7E0A;
 }
 
 .fh5co-social-icon a {
